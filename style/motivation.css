@@ -1,0 +1,409 @@
+.hero-title {
+        background-image: url(../picture/compass.jpg);
+
+}
+
+.whole-section {
+    width: 65%;
+    margin: 0 auto;
+
+    
+}
+
+.main-title {
+    font-size: 25px;
+    font-weight: bold;
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    color: rgb(99, 99, 99);
+
+
+}
+
+.main-subtitle {
+    font-size: 16px;
+    margin-top: 100px;
+
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.line-pic {
+    width: 150px;
+    
+}
+
+.line-container {
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 270px;
+
+}
+
+.second-subtitle {
+        font-size: 18px;
+    margin-top: 100px;
+
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.highlight-second {
+    color: rgb(255, 95, 80);
+    font-size: 25px;
+
+}
+
+.highlight {
+    color: rgb(255, 95, 80);
+
+}
+
+.flow-entire-flexbox {
+    background-color: rgb(255, 249, 242);
+
+    margin-top: 180px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+
+.flow-title {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content:center ;
+}
+
+
+.flow-flexbox {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    margin-top: 100px;
+
+    height: 300px;
+}
+
+
+.number-container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+}
+
+.flow-text-title {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.number {
+    font-size: 60px;
+
+    font-weight: 1000;
+
+    color: rgb(255, 89, 89);
+
+    margin-bottom: 12px;
+}
+
+.number-second {
+    color: rgb(255, 141, 41);
+    font-size: 60px;
+
+    font-weight: 1000;
+    margin-bottom: 12px;
+}
+
+.number-third {
+    color: rgb(255, 230, 42);
+    font-size: 60px;
+
+    font-weight: 1000;
+    margin-bottom: 12px;
+}
+
+.number-title {
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-bottom: 8px;
+
+    text-align: center;
+
+}
+
+.number-subtitle {
+    text-align: center;
+}
+
+
+.first-flow-number {
+
+    display: flex;
+    flex-direction: row;
+
+    
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+.first-flow-title {
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-left: 20px;
+}
+
+.survey {
+    margin-top: 100px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1
+    );
+    border-radius: 30px;
+
+    padding: 50px;
+}
+
+
+.result-card {
+    background-color: lightblue;
+
+    
+
+    width: 85%;
+    height: 150px;
+}
+
+.result-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    
+
+    gap: 20px;
+}
+
+.flexbox-help-subtitle {
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+    align-items: center;
+
+    margin-top: 450px;
+
+    
+}
+
+.help-title {
+    text-align: center;
+
+    font-size: 25px;
+    font-weight: bold;
+
+    color: rgb(99, 99, 99);
+
+    margin-top: 10px;
+
+    margin-bottom: 30px;
+}
+
+.need-help {
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(255, 95, 80) ;
+
+    padding-left: 10px;
+}
+
+.help-comment {
+    text-align: center;
+
+    background-color: rgb(255, 249, 242);
+
+    font-size: 18px;
+    
+
+    padding: 40px;
+
+    margin-top: -100px;
+
+    border-radius: 20px;
+
+
+}
+
+.help-text {
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    margin-top: 100px;
+}
+
+.flexbox-help {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+}
+
+.profile {
+    width: 80px;
+    border-radius: 100px;
+
+}
+
+.profile-comment {
+    margin-left: 30px;
+
+    border: 1px solid rgb(222, 222, 222);
+    
+    padding: 40px;
+
+    border-radius: 30px;
+}
+
+.contact-text {
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: bold;
+
+    text-align: center;
+
+    color: rgb(99, 99, 99);
+
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.haruka {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer {
+    margin-top: 200px;
+}
+
+
+@media (max-width: 600px) {
+    .tips-subtitle {
+        font-size: 15px;
+    }
+
+    .tips-title {
+        font-size: 25px;
+    }
+
+    .main-title {
+        font-size: 19px;
+    }
+
+    .main-subtitle {
+        font-size: 16px;
+    }
+
+    .highlight-second {
+        font-size: 22px;
+    }
+
+    .second-subtitle {
+        font-size: 16px;
+    }
+
+    .flow-text-title {
+        font-size: 19px;
+    }
+
+    .flow-flexbox {
+        display: flex;
+        flex-direction: column;
+
+        gap: 50px;
+    }
+
+    .flow-entire-flexbox {
+        height: 900px;
+    }
+
+    .result-container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        padding-top: 100px;
+    }
+
+    .flexbox-help-subtitle {
+        margin-top: 300px;
+    }
+
+    .need-help {
+        font-size: 15px;
+
+    }
+
+    .help-title {
+        font-size: 19px;
+    }
+
+    .help-comment {
+        font-size: 16px;
+    }
+
+    .flexbox-help {
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    .first-flow-title {
+        font-size: 19px;
+
+    }
+
+    .flow-entire-flexbox {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+
+}
